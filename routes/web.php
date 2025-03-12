@@ -31,4 +31,8 @@ Route::get('/ten-cua-toi', function () {
     return view('ten-toi');
 });
 
+Route::get('/tenUN', function () {
+    return view('tenUN');
+});
+
 require __DIR__.'/auth.php';
